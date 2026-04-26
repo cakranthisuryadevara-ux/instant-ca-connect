@@ -125,8 +125,13 @@ export const reviews = [
   { id: "r3", name: "Ankit R.", rating: 4, text: "Helpful session, good value for money.", date: "1 month ago" },
 ];
 
-export const dummyAppointments = [
-  { id: "a1", professionalId: "p1", professionalName: "Aanya Mehta", service: "GST Filing", date: "2026-04-28", time: "11:30 AM", status: "Confirmed" as const },
-  { id: "a2", professionalId: "p3", professionalName: "Priya Nair", service: "ITR Filing", date: "2026-05-02", time: "4:00 PM", status: "Pending" as const },
-  { id: "a3", professionalId: "p2", professionalName: "Rohan Verma", service: "Company Registration", date: "2026-04-15", time: "12:00 PM", status: "Completed" as const },
+export type AppointmentStatus = "Pending" | "Confirmed" | "Completed" | "Cancelled";
+export type Appointment = {
+  id: string; professionalId: string; professionalName: string;
+  service: string; date: string; time: string; status: AppointmentStatus;
+};
+export const dummyAppointments: Appointment[] = [
+  { id: "a1", professionalId: "p1", professionalName: "Aanya Mehta", service: "GST Filing", date: "2026-04-28", time: "11:30 AM", status: "Confirmed" },
+  { id: "a2", professionalId: "p3", professionalName: "Priya Nair", service: "ITR Filing", date: "2026-05-02", time: "4:00 PM", status: "Pending" },
+  { id: "a3", professionalId: "p2", professionalName: "Rohan Verma", service: "Company Registration", date: "2026-04-15", time: "12:00 PM", status: "Completed" },
 ];
