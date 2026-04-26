@@ -32,7 +32,7 @@ export const Route = createFileRoute("/professionals/$id")({
 });
 
 function ProfilePage() {
-  const { pro } = Route.useLoaderData();
+  const { pro } = Route.useLoaderData() as { pro: typeof professionals[number] };
 
   return (
     <div className="flex min-h-screen flex-col">
