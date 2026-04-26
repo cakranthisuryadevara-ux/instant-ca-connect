@@ -25,7 +25,7 @@ export function ProfessionalCard({ pro }: { pro: Professional }) {
         </div>
       </div>
       <div className="mt-3 flex flex-wrap gap-1.5">
-        {pro.expertise.slice(0, 3).map((e) => (
+        {pro.expertise.slice(0, 5).map((e) => (
           <Badge key={e} variant="secondary" className="rounded-full font-normal">{e}</Badge>
         ))}
       </div>
