@@ -42,6 +42,8 @@ export const Route = createRootRoute({
       { name: "twitter:description", content: "Talk to verified CAs, CSs and CMAs in under 60 seconds. Free 3-minute intro call." },
     ],
     links: [
+      { rel: "icon", type: "image/png", href: faviconUrl },
+      { rel: "apple-touch-icon", href: faviconUrl },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
