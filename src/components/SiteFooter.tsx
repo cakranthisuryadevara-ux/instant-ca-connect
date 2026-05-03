@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import logo from "@/assets/quickstart-logo.png";
 
 export function SiteFooter() {
   return (
