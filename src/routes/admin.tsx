@@ -9,7 +9,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/admin")({
-  head: () => ({ meta: [{ title: "Admin Dashboard — ZenithBooks" }] }),
+  head: () => ({ meta: [{ title: "Admin Dashboard — QuickStart" }] }),
   component: Admin,
 });
 

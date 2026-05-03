@@ -29,7 +29,7 @@ export const Route = createFileRoute("/professionals/$id")({
   },
   head: ({ loaderData }) => ({
     meta: [
-      { title: `${loaderData?.pro.name ?? "Professional"} — ZenithBooks` },
+      { title: `${loaderData?.pro.name ?? "Professional"} — QuickStart` },
       { name: "description", content: loaderData?.pro.bio ?? "Book a consultation." },
       { property: "og:title", content: `${loaderData?.pro.name} — ${loaderData?.pro.qualification}` },
       { property: "og:description", content: loaderData?.pro.bio ?? "" },

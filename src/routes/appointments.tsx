@@ -11,7 +11,7 @@ import { toast } from "sonner";
 
 export const Route = createFileRoute("/appointments")({
   head: () => ({
-    meta: [{ title: "My Appointments — ZenithBooks" }],
+    meta: [{ title: "My Appointments — QuickStart" }],
   }),
   component: Appointments,
 });

@@ -14,7 +14,7 @@ const searchSchema = z.object({
 export const Route = createFileRoute("/call")({
   validateSearch: zodValidator(searchSchema),
   head: () => ({
-    meta: [{ title: "On Call — ZenithBooks" }],
+    meta: [{ title: "On Call — QuickStart" }],
   }),
   component: CallScreen,
 });

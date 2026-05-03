@@ -11,7 +11,7 @@ export function SiteHeader() {
             <span className="absolute inset-0 bg-[var(--gradient-shine)] opacity-60" />
           </div>
           <div className="flex flex-col leading-none">
-            <span className="text-[15px] font-semibold tracking-tight">Zenith<span className="font-display italic">Books</span></span>
+            <span className="text-[15px] font-semibold tracking-tight">Quick<span className="font-display italic">Start</span></span>
             <span className="mt-0.5 text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Finance, refined</span>
           </div>
         </Link>
