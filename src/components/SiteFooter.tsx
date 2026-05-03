@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import logo from "@/assets/quickstart-logo.png";
 
 export function SiteFooter() {
   return (
@@ -6,10 +7,7 @@ export function SiteFooter() {
       <div className="container mx-auto grid gap-10 px-4 py-14 md:grid-cols-[1.2fr_1fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-2.5">
-            <div className="relative flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-[var(--gradient-hero)] shadow-[var(--shadow-glow)]">
-              <span className="font-display text-xl leading-none">Z</span>
-              <span className="absolute inset-0 bg-[var(--gradient-shine)] opacity-50" />
-            </div>
+            <img src={logo} alt="QuickStart logo" width={40} height={40} loading="lazy" className="h-10 w-10 rounded-xl shadow-[var(--shadow-glow)]" />
             <div className="leading-none">
               <div className="text-base font-semibold tracking-tight">Quick<span className="font-display italic">Start</span></div>
               <div className="mt-0.5 text-[10px] uppercase tracking-[0.22em] opacity-60">Finance, refined</div>
