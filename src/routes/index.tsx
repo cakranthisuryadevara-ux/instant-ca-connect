@@ -12,9 +12,9 @@ const iconMap = { Receipt, FileText, Building2, ShieldCheck, Calculator, Trendin
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ZenithBooks — Talk to Verified CAs Instantly" },
+      { title: "QuickStart — Talk to Verified CAs Instantly" },
       { name: "description", content: "Book consultation calls with verified Chartered Accountants, Company Secretaries and CMAs. Free 3-minute intro call." },
-      { property: "og:title", content: "ZenithBooks — Talk to Verified CAs Instantly" },
+      { property: "og:title", content: "QuickStart — Talk to Verified CAs Instantly" },
       { property: "og:description", content: "Verified finance professionals on demand. Free 3-minute intro call." },
     ],
   }),

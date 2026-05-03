@@ -23,7 +23,7 @@ export const Route = createFileRoute("/book-appointment")({
   validateSearch: zodValidator(searchSchema),
   head: () => ({
     meta: [
-      { title: "Book a Consultation — ZenithBooks" },
+      { title: "Book a Consultation — QuickStart" },
       { name: "description", content: "Confirm your booking in under 60 seconds. First 3 minutes are free." },
     ],
   }),

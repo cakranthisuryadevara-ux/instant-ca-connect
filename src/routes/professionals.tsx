@@ -11,7 +11,7 @@ import { professionals } from "@/data/professionals";
 export const Route = createFileRoute("/professionals")({
   head: () => ({
     meta: [
-      { title: "Find a CA / CS / CMA — ZenithBooks" },
+      { title: "Find a CA / CS / CMA — QuickStart" },
       { name: "description", content: "Browse verified Chartered Accountants, Company Secretaries and CMAs. Filter by service, price, rating and experience." },
       { property: "og:title", content: "Find Verified Finance Professionals" },
       { property: "og:description", content: "Filter by service, price, rating and experience." },

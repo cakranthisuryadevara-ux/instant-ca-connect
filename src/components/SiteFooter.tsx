@@ -11,7 +11,7 @@ export function SiteFooter() {
               <span className="absolute inset-0 bg-[var(--gradient-shine)] opacity-50" />
             </div>
             <div className="leading-none">
-              <div className="text-base font-semibold tracking-tight">Zenith<span className="font-display italic">Books</span></div>
+              <div className="text-base font-semibold tracking-tight">Quick<span className="font-display italic">Start</span></div>
               <div className="mt-0.5 text-[10px] uppercase tracking-[0.22em] opacity-60">Finance, refined</div>
             </div>
           </div>
@@ -41,7 +41,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-white/10">
         <div className="container mx-auto flex flex-col items-center justify-between gap-2 px-4 py-5 text-xs opacity-60 md:flex-row">
-          <span>© {new Date().getFullYear()} ZenithBooks. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} QuickStart. All rights reserved.</span>
           <span>Made for founders, freelancers and finance teams.</span>
         </div>
       </div>
