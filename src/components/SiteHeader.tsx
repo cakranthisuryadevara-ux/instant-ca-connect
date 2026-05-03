@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/quickstart-logo.png";
 
 export function SiteHeader() {
   return (
